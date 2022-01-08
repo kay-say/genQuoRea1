@@ -1,0 +1,70 @@
+.container {
+  background: gray;
+  height: 100vh;
+  transition: background 1500ms ease-in-out;
+
+  .app {
+    background: white;
+    padding: 3em 2em;
+    width: 40%;
+    min-width: 400px;
+
+    .header {
+      transition: color 1500ms ease-in-out;
+
+      .quote {
+        background: white;
+        letter-spacing: 1px;
+        line-height: 1.5;
+      }
+
+      .author {
+        padding-top: 0.5em;
+        padding-bottom: 2em;
+        text-align: right;
+
+        &::after {
+          content: "--";
+        }
+      }
+    }
+
+    .footer {
+      justify-content: space-between;
+
+      .social {
+        display: flex;
+
+        .fab {
+          width: 40px;
+          height: 40px;
+          background: white;
+          color: black;
+          border: 1px solid black;
+          margin-right: 0.2rem;
+          cursor: pointer;
+          transition: all 200ms ease-in-out;
+
+          &:hover {
+            background: black;
+            color: white;
+          }
+        }
+      }
+
+      .btn {
+        border: none;
+        color: white;
+        padding: 0.5em 1em;
+        font-size: 1.2rem;
+        cursor: pointer;
+        transition: opacity 200ms ease-in-out;
+        transition: background 1500ms ease-in-out;
+
+        &:hover {
+          opacity: 0.8;
+        }
+      }
+    }
+  }
+}
