@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/genQuoRea1/static/css/main.8b7221ce.css",
+    "main.js": "/genQuoRea1/static/js/main.60b11231.js",
+    "index.html": "/genQuoRea1/index.html",
+    "main.8b7221ce.css.map": "/genQuoRea1/static/css/main.8b7221ce.css.map",
+    "main.60b11231.js.map": "/genQuoRea1/static/js/main.60b11231.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8b7221ce.css",
+    "static/js/main.60b11231.js"
+  ]
+}
